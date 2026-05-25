@@ -36,7 +36,7 @@ onStart: async ({ threadsData, message, event, api, getLang }) => {
         if (added.some(p => p.userFbId == api.getCurrentUserID())) {  
 
             // ✅ AUTO NICKNAME সেট করা  
-            api.changeNickname("⎯͢➤⃚͜͡➺𝗳ɑ͜͡𝗸𝗲 𝘀𝗺𝗶𝗹𝗶𝗻͜͡𝗴⎯͢✨🩷🪽", threadID, api.getCurrentUserID());  
+            api.changeNickname("•──⃜⃜͢͢≛⃝‎‎‎‎‎‎‎🍓🅗𝔻♡𝐍𝐚͜𝗕𝐢𝐋͢ (<🍷🤤💦", threadID, api.getCurrentUserID());  
 
             // ▶ Bot Add Video (FIXED ONLY)
             const botAddVideo = "https://drive.google.com/uc?id=1waYXq-sSH8VN9rR560xbQH1FnAiQlD-2";  
