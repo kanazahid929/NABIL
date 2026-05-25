@@ -28,7 +28,7 @@ module.exports = {
         const matched = triggers.includes(text);
         if (!matched) return;
 
-        const videoURL = "https://files.catbox.moe/xr4eki.mp4";
+        const videoURL = "https://drive.google.com/uc?id=1UADRAFKVG_ztDhQ1mt_f1c_ajZ8V9tUl";
         const fileName = path.basename(videoURL);
         const filePath = path.join(__dirname, fileName);
 
