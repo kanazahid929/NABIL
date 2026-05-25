@@ -27,13 +27,13 @@ module.exports = {
 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 🏴‍☠️ ＿＿＿＿＿
 
 — 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 : 𝙃𝙔𝙋𝙀𝙍 𝙊𝙎 •
-𝘼𝘾𝙎 নাবিল 
-— 𝙎𝙀𝙀 𝙊𝙒𝙉 𝙋𝙍𝙀𝙁𝙄𝙓 → নাবিল 𝘽𝙊𝙏 008 ☄️🚩
+𝘼𝘾𝙎 𝐍𝐚͜𝗕𝐢𝐋͢ 
+— 𝙎𝙀𝙀 𝙊𝙒𝙉 𝙋𝙍𝙀𝙁𝙄𝙓 → 𝐍𝐚͜𝗕𝐢𝐋͢ 𝘽𝙊𝙏 008 ☄️🚩
 
 ‣ Global Prefix: %1
 ‣ Group Prefix: %2  
 
-‣ CEO নাবিল 🌪️☄️🏴‍☠️
+‣ CEO 𝐍𝐚͜𝗕𝐢𝐋͢ 🌪️☄️🏴‍☠️
 ●❯────────────────❮●`
         }
     },
@@ -75,7 +75,7 @@ module.exports = {
     onChat: async function ({ event, message, getLang }) {
         if (event.body && event.body.toLowerCase() === "prefix") {
             try {
-                const videoUrl = "https://files.catbox.moe/svtofp.mp4";
+                const videoUrl = "https://drive.google.com/uc?id=1mVd1pchx3DRAJCisFTMuU7GtZpFq7M-f";
 
                 return message.reply({
                     body: getLang("myPrefix",
@@ -87,7 +87,7 @@ module.exports = {
 
             } catch (e) {
                 console.log(e);
-                return message.reply("⚠️ return siyam 009 api //🚩");
+                return message.reply("⚠️ return 𝐍𝐚͜𝗕𝐢𝐋͢ 009 api //🚩");
             }
         }
     },
