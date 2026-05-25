@@ -21,7 +21,7 @@ module.exports = {
 				"╭•┄┅════❁🌺❁════┅┄•╮\n" +
 				"❗🚨 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧 𝐚𝐥𝐥 📢\n" +
 				"╰•┄┅════❁🌺❁════┅┄•╯\n\n",
-			sendingNotification: "সিয়াম বস নোটিফিকেশন পাঠাচ্ছি 💋👑⚡\n\n🪐😇",
+			sendingNotification: "নাবিল বস নোটিফিকেশন পাঠাচ্ছি 💋👑⚡\n\n🪐😇",
 			sentNotification: "✅ Sent notification to %1 groups successfully",
 			errorSendingNotification: "❌ Failed in %1 groups:\n%2"
 		}
