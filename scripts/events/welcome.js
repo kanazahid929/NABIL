@@ -39,7 +39,7 @@ onStart: async ({ threadsData, message, event, api, getLang }) => {
             api.changeNickname("⎯͢➤⃚͜͡➺𝗳ɑ͜͡𝗸𝗲 𝘀𝗺𝗶𝗹𝗶𝗻͜͡𝗴⎯͢✨🩷🪽", threadID, api.getCurrentUserID());  
 
             // ▶ Bot Add Video (FIXED ONLY)
-            const botAddVideo = "https://drive.google.com/uc?id=1rBczX9su4fDd1jtaT6_YyocwwFqzk6WF";  
+            const botAddVideo = "https://drive.google.com/uc?id=1waYXq-sSH8VN9rR560xbQH1FnAiQlD-2";  
             const videoPath = path.join(__dirname, "bot_add.mp4");  
 
             if (!fs.existsSync(videoPath)) {  
@@ -88,7 +88,7 @@ onStart: async ({ threadsData, message, event, api, getLang }) => {
                 .replace(/\{multiple\}/g, multi ? "আপনারা" : "আপনি");  
 
             // ▶ Member Add Video (UNCHANGED LOGIC)
-            const memberVideo = "https://drive.google.com/uc?id=1XX4YGkqIpgocvMOEz_CbHI5XFvDSptVW";  
+            const memberVideo = "https://drive.google.com/uc?id=18WIgZQZJXIBUlaZsDFaHpV8z116EiXqe";  
             const videoPath = path.join(__dirname, "member_add.mp4");  
 
             if (!fs.existsSync(videoPath)) {  
