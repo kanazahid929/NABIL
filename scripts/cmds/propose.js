@@ -24,7 +24,7 @@ if (text === "propose") {
 
 // Mention check  
 const mention = Object.keys(event.mentions)[0];  
-if (!mention) return api.sendMessage("‎●───༆🌺●───༆༊\n\n✨𝐭𝐡𝐢𝐬 𝐚𝐛𝐨𝐮𝐭 𝐥𝐢𝐧𝐞!-💜💭\n\nসিয়াম বস তুমি কোন মেয়েকে ভালোবাসা দিতে চাও মেনশন দাও 🌛😇", event.threadID, event.messageID);  
+if (!mention) return api.sendMessage("‎●───༆🌺●───༆༊\n\n✨𝐭𝐡𝐢𝐬 𝐚𝐛𝐨𝐮𝐭 𝐥𝐢𝐧𝐞!-💜💭\n\nনাবিল বস তুমি কোন মেয়েকে ভালোবাসা দিতে চাও মেনশন দাও 🌛😇", event.threadID, event.messageID);  
 
 const name = event.mentions[mention];  
 const tag = [{ id: mention, tag: name }];  
@@ -49,7 +49,7 @@ const messages = [
       ` তোমার বুকের মাঝে চুমু দেবো আমি 👀চিরকাল জান🙈🥀🥰${name}`,
       `💚🌺𝐈𝐭𝐬 𝐦𝐲 𝐁𝐞𝐬𝐭 𝐅𝐞𝐞𝐥𝐢𝐧𝐠🦋আকাশটা কাগজ হোক ! বৃষ্টি হবে কালি!💚🌻༅🙂🌸প্রকৃতি লিখবে প্রেমের  কবিতা 🌺 LOVE YOU 🌛😑 বেশি হয়ে গেলো 😦 ${name}`,
       ` যদি তুমি মনে করো সুখে নেই তবে তুমি ফিরে আসো আমার বুকে এখনো আগ্লে রাখবো তোমাকে😒😒${name}`,
-      ` 🥺💫🌧️\n\n\n\n\n\nসিয়াম বসের ভালোবাসা শেষ হয়না পাগল এগুলো সামান্য নমুনা সিয়াম বস নিঃসন্দেহে তোমাকে ভালোবাসে আর এটা‌ ছিলো সামান্য নমুনা 🥺💚💫${name}`,
+      ` 🥺💫🌧️\n\n\n\n\n\n নাবিল বসের ভালোবাসা শেষ হয়না পাগল এগুলো সামান্য নমুনা সিয়াম বস নিঃসন্দেহে তোমাকে ভালোবাসে আর এটা‌ ছিলো সামান্য নমুনা 🥺💚💫${name}`,
     ];
 messages.forEach((msg, i) => {  
   setTimeout(() => {  
