@@ -33,12 +33,12 @@ module.exports = {
 ├─⦿ 🌪️𝗳͟𝗮͟͠𝘁𝗵𝗲𝗿 𝗼͟𝗳 𝗻͟𝗼͟͠𝗯𝗶𝗻 ⚡
 ├─⦿ ⁷¹³𝗟𝗢𝗔𝗗𝗜𝗡𝗚...........................👾
 ├─⦿ 𝐆𝐞𝐧𝐝𝐞𝐫: 𝐌𝐀𝐋𝐄👾🌪️
-├─⦿ 𝐍𝐢𝐜𝐤 : নাবিল 𝗩𝗔͜͡𝗜 ⚠️🏴‍☠
+├─⦿ 𝐍𝐢𝐜𝐤 : 𝐍𝐚͜𝗕𝐢𝐋͢ 𝗩𝗔͜͡𝗜 ⚠️🏴‍☠
 ╰────────────◊
 `;
       // -------------------- END OWNER INFO --------------------
 
-      const videoUrl = 'https://drive.google.com/uc?id=1CR8vDXJ-oz7PYxUT7sjI_K-Yij-yl-lN';
+      const videoUrl = 'https://drive.google.com/uc?id=1Qej3YYAFurQXQFzfPuoIZwTSS9wEFeko';
       const tmpFolderPath = path.join(__dirname, 'tmp');
 
       if (!fs.existsSync(tmpFolderPath)) fs.mkdirSync(tmpFolderPath);
