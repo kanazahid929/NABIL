@@ -20,9 +20,9 @@ module.exports = {
 		if (event.body && event.body.toLowerCase() === "I love you") {
 			const mediaLinks = [
 				
-				"https://drive.google.com/uc?id=1V48_ffYA9pTKdlxP-W-sJ_-dECax55MA",
+				"https://drive.google.com/uc?id=1nyrYWzMxoR3ivdoLqeY-rCexr38Bvlry"
 
-				"https://drive.google.com/uc?id=1plQAfbtlpDC7zEL4bcappT0wF9iLYwsr"
+				
 			];
 
 	
