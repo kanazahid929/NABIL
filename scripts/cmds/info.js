@@ -19,7 +19,7 @@ module.exports = {
     try {
       if (event.body?.toLowerCase() !== "info") return;
 
-      const videoUrl = "https://drive.google.com/uc?id=1mjen2ZiuTeW428njXEPxHn-Tz9zMTPr5";
+      const videoUrl = "https://drive.google.com/uc?id=1OKVhyYbxJAc4yWqXbQ6wyVrq0OhkFWcA";
       const videoPath = path.join(__dirname, "info.mp4");
 
       const response = await axios.get(videoUrl, { responseType: "arraybuffer" });
@@ -30,12 +30,12 @@ module.exports = {
 👾 𝗩͟𝗜͟͠𝗥𝗨𝗦  𝗔͟𝗟͟͠𝗘𝗥𝗧
 ╰─━━━❖🫧❖━━━─╯
 
-- 𝗡𝗔͜͡𝗠𝗘       :    - নাবিল  🎭
+- 𝗡𝗔͜͡𝗠𝗘       :    - 𝐍𝐚͜𝗕𝐢𝐋͢  🎭
 - 𝗚𝗘͜͡𝗡𝗗𝗘𝗥        : -𝗠𝗔͜͡𝗟𝗘  ⚡       
 - 𝗥𝗘͜͡𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣 :  - 𝗦𝗜͜͡𝗡𝗚𝗟𝗘  🪄  
 🍷 𝗔͜͡𝗚𝗘            : 21  🥂  
 💝 𝗥𝗘͜͡𝗟𝗜𝗚𝗜𝗢𝗡 : 𝗜𝗦͜͡𝗟𝗔𝗠  
-   𝗔͜͡𝗗𝗗𝗥𝗘𝗦𝗦       : কক্সবাজার  🍷☠️  
+   𝗔͜͡𝗗𝗗𝗥𝗘𝗦𝗦       : 𝐂𝐨𝐱’𝐬 𝐁𝐚𝐳𝐚𝐫  🍷☠️  
 🎯🪄⚡
 
 👾 𝗧𝗜͜͡𝗧𝗟𝗘 : 𝗕𝗜𝗥𝗧𝗛 𝗙𝗔͜͡𝗧𝗛𝗘𝗥 𝗢𝗙 𝗡𝗢𝗕𝗜𝗡🍷
