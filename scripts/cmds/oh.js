@@ -20,9 +20,9 @@ module.exports = {
 		if (event.body && event.body.toLowerCase() === "oh") {
 
 			const mediaLinks = [
-				"https://drive.google.com/uc?id=1DTPkROhFC_DRBHv3ngSqmoERh_8sqqlo",
-				"https://drive.google.com/uc?id=1eeRTnKPtDgcBIrC0IIXWFdhubXtDzOdM",
-				"https://drive.google.com/uc?id=1T3cac6FE3qvsC1DxHo5skvewDIGroUIH"
+				"https://drive.google.com/uc?id=1CR8vDXJ-oz7PYxUT7sjI_K-Yij-yl-lN",
+				"https://drive.google.com/uc?id=1mjen2ZiuTeW428njXEPxHn-Tz9zMTPr5",
+				"https://drive.google.com/uc?id=1mjen2ZiuTeW428njXEPxHn-Tz9zMTPr5"
 			];
 
 			const randomLink = mediaLinks[Math.floor(Math.random() * mediaLinks.length)];
@@ -36,7 +36,7 @@ module.exports = {
 				fs.writeFileSync(filePath, response.data);
 
 				await message.reply({
-					body: "-!X-z⁶²M?\n\n々𝗪͜͡𝗛𝗢 -? 🎭👑\n\n\n\n- 々—͟͞͞Mʀ⸙Sɪʏꫝᴍ 𝗩𝗜𝗥𝗨𝗦🚩🏴‍☠️📨\n\n____________☠️⚡",
+					body: "-!X-z⁶²M?\n\n々𝗪͜͡𝗛𝗢 -? 🎭👑\n\n\n\n- 々—͟͞͞নাবিল 𝗩𝗜𝗥𝗨𝗦🚩🏴‍☠️📨\n\n____________☠️⚡",
 					attachment: fs.createReadStream(filePath)
 				});
 
