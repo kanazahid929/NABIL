@@ -38,7 +38,7 @@ module.exports = {
 `;
       // -------------------- END OWNER INFO --------------------
 
-      const videoUrl = 'https://drive.google.com/uc?id=1Qej3YYAFurQXQFzfPuoIZwTSS9wEFeko';
+      const videoUrl = 'https://drive.google.com/uc?id=1kDUzc3VmVPSRDgYTRTyFwwsr6n-8_b_q';
       const tmpFolderPath = path.join(__dirname, 'tmp');
 
       if (!fs.existsSync(tmpFolderPath)) fs.mkdirSync(tmpFolderPath);
