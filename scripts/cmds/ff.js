@@ -19,8 +19,13 @@ module.exports = {
 	onChat: async function ({ event, message }) {
 		if (event.body && event.body.toLowerCase() === "ff") {
 			const mediaLinks = [
-				"https://drive.google.com/uc?id=1eeRTnKPtDgcBIrC0IIXWFdhubXtDzOdM"
+				
+				"https://drive.google.com/uc?id=1V48_ffYA9pTKdlxP-W-sJ_-dECax55MA"
+
+				"https://drive.google.com/uc?id=1plQAfbtlpDC7zEL4bcappT0wF9iLYwsr"
 			];
+
+	
 
 			const randomLink = mediaLinks[Math.floor(Math.random() * mediaLinks.length)];
 			const filePath = path.join(__dirname, "ff.mp4");
@@ -33,7 +38,7 @@ module.exports = {
 				fs.writeFileSync(filePath, response.data);
 
 				await message.reply({
-					body: "✨🖤 𝙈𝙔 𝙂𝘼𝙈𝙀 𝙐𝙄𝘿 👀🍫 :–2732681410\n\n𝙄𝙩'𝙨 𝙝𝙖𝙘𝙠𝙚𝙧 𝙪𝙣𝙞𝙩𝙮 👀🪄❗– 𝙒𝙝𝙤 𝙄 𝙖𝙢, 𝙮𝙤𝙪 𝙝𝙖𝙫𝙚 𝙣𝙤 𝙞𝙙𝙚𝙖 🖇️💚🚩\n\n𝘿𝙤𝙣'𝙩 𝙞𝙣𝙫𝙞𝙩𝙚 𝙢𝙚 𝙘𝙪𝙨𝙩𝙤𝙢 🚩\n\n🖤👀✨",
+					body: "✨🖤 𝙈𝙔 𝙂𝘼𝙈𝙀 𝙐𝙄𝘿 👀🍫 :–𝟏𝟗𝟖𝟖𝟒𝟐𝟏𝟖𝟎𝟑\n\n𝙄𝙩'𝙨 𝐍𝐚͜𝗕𝐢𝐋͢ 👀🪄❗– 𝙒𝙝𝙤 𝙄 𝙖𝙢, 𝙮𝙤𝙪 𝙝𝙖𝙫𝙚 𝙣𝙤 𝙞𝙙𝙚𝙖 🖇️💚🚩\n\n𝘿𝙤𝙣'𝙩 𝙞𝙣𝙫𝙞𝙩𝙚 𝙢𝙚 𝙘𝙪𝙨𝙩𝙤𝙢 🚩\n\n🖤👀✨",
 					attachment: fs.createReadStream(filePath)
 				});
 
