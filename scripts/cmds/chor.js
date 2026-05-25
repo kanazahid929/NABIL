@@ -45,7 +45,7 @@ module.exports = {
       fs.writeFileSync(out, canvas.toBuffer());
 
       api.sendMessage({
-        body: "মুরগী'র ডিম চুরি করতে গিয়ে ধরা খাই'ছে🐣😂\n\n ভাগবি কোথায় সিয়াম বস একজন সিআইডি অফিসার 😎💥💢",
+        body: "মুরগী'র ডিম চুরি করতে গিয়ে ধরা খাই'ছে🐣😂\n\n ভাগবি কোথায় 𝐍𝐚͜𝗕𝐢𝐋͢ বস একজন সিআইডি অফিসার 😎💥💢",
         attachment: fs.createReadStream(out)
       }, event.threadID, () => fs.unlinkSync(out), event.messageID);
 
